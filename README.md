@@ -1,14 +1,20 @@
-Base Tornado App for dead simple projects.
-==========================================
+#Tornado App Seed
+----
 
-Tornado base app is (as its name suggests) a tornado app which do all the boring stuff for you.
+This is a sample tornado app seed.
 
-Usage (default settings):
+It provides a couple os simple features.
 
-    ./app.py
+* Simple Template Rendering
+* Serve static files
+* Simple http request
+* Simple websocket creation
 
-If you use stuff like Twitter's OAuth, you may have different settings in production and in development.
 
-    ./app.py --version=version
+To install requirements use:  
+`pip install -r requirements.txt`
 
-Will override default settings with extra settings.
+To run the simple app use:  
+`python app.py`
+
+Configure all your 
